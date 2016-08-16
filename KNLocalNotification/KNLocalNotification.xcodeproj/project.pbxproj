@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EC909221D62AAC400F0B7CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC909211D62AAC400F0B7CC /* main.m */; };
+		6EC909251D62AAC400F0B7CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC909241D62AAC400F0B7CC /* AppDelegate.m */; };
+		6EC909281D62AAC400F0B7CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC909271D62AAC400F0B7CC /* ViewController.m */; };
+		6EC9092B1D62AAC400F0B7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC909291D62AAC400F0B7CC /* Main.storyboard */; };
+		6EC9092D1D62AAC400F0B7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9092C1D62AAC400F0B7CC /* Assets.xcassets */; };
+		6EC909301D62AAC400F0B7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9092E1D62AAC400F0B7CC /* LaunchScreen.storyboard */; };
+		6EC9093B1D62AAC400F0B7CC /* KNLocalNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9093A1D62AAC400F0B7CC /* KNLocalNotificationTests.m */; };
+		6EC909461D62AAC400F0B7CC /* KNLocalNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC909451D62AAC400F0B7CC /* KNLocalNotificationUITests.m */; };
+		6EC909581D62AB1100F0B7CC /* NSObject+KNLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC909571D62AB1100F0B7CC /* NSObject+KNLocalNotification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EC909371D62AAC400F0B7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC909151D62AAC400F0B7CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC9091C1D62AAC400F0B7CC;
+			remoteInfo = KNLocalNotification;
+		};
+		6EC909421D62AAC400F0B7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC909151D62AAC400F0B7CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC9091C1D62AAC400F0B7CC;
+			remoteInfo = KNLocalNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EC9091D1D62AAC400F0B7CC /* KNLocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNLocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC909211D62AAC400F0B7CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EC909231D62AAC400F0B7CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EC909241D62AAC400F0B7CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EC909261D62AAC400F0B7CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EC909271D62AAC400F0B7CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EC9092A1D62AAC400F0B7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EC9092C1D62AAC400F0B7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EC9092F1D62AAC400F0B7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EC909311D62AAC400F0B7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC909361D62AAC400F0B7CC /* KNLocalNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNLocalNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC9093A1D62AAC400F0B7CC /* KNLocalNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNLocalNotificationTests.m; sourceTree = "<group>"; };
+		6EC9093C1D62AAC400F0B7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC909411D62AAC400F0B7CC /* KNLocalNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNLocalNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC909451D62AAC400F0B7CC /* KNLocalNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNLocalNotificationUITests.m; sourceTree = "<group>"; };
+		6EC909471D62AAC400F0B7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC909561D62AB1100F0B7CC /* NSObject+KNLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KNLocalNotification.h"; sourceTree = "<group>"; };
+		6EC909571D62AB1100F0B7CC /* NSObject+KNLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KNLocalNotification.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EC9091A1D62AAC400F0B7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC909331D62AAC400F0B7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9093E1D62AAC400F0B7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EC909141D62AAC400F0B7CC = {
+			isa = PBXGroup;
+			children = (
+				6EC9091F1D62AAC400F0B7CC /* KNLocalNotification */,
+				6EC909391D62AAC400F0B7CC /* KNLocalNotificationTests */,
+				6EC909441D62AAC400F0B7CC /* KNLocalNotificationUITests */,
+				6EC9091E1D62AAC400F0B7CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EC9091E1D62AAC400F0B7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9091D1D62AAC400F0B7CC /* KNLocalNotification.app */,
+				6EC909361D62AAC400F0B7CC /* KNLocalNotificationTests.xctest */,
+				6EC909411D62AAC400F0B7CC /* KNLocalNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC9091F1D62AAC400F0B7CC /* KNLocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				6EC909231D62AAC400F0B7CC /* AppDelegate.h */,
+				6EC909241D62AAC400F0B7CC /* AppDelegate.m */,
+				6EC909261D62AAC400F0B7CC /* ViewController.h */,
+				6EC909271D62AAC400F0B7CC /* ViewController.m */,
+				6EC909561D62AB1100F0B7CC /* NSObject+KNLocalNotification.h */,
+				6EC909571D62AB1100F0B7CC /* NSObject+KNLocalNotification.m */,
+				6EC909291D62AAC400F0B7CC /* Main.storyboard */,
+				6EC9092C1D62AAC400F0B7CC /* Assets.xcassets */,
+				6EC9092E1D62AAC400F0B7CC /* LaunchScreen.storyboard */,
+				6EC909311D62AAC400F0B7CC /* Info.plist */,
+				6EC909201D62AAC400F0B7CC /* Supporting Files */,
+			);
+			path = KNLocalNotification;
+			sourceTree = "<group>";
+		};
+		6EC909201D62AAC400F0B7CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EC909211D62AAC400F0B7CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EC909391D62AAC400F0B7CC /* KNLocalNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9093A1D62AAC400F0B7CC /* KNLocalNotificationTests.m */,
+				6EC9093C1D62AAC400F0B7CC /* Info.plist */,
+			);
+			path = KNLocalNotificationTests;
+			sourceTree = "<group>";
+		};
+		6EC909441D62AAC400F0B7CC /* KNLocalNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC909451D62AAC400F0B7CC /* KNLocalNotificationUITests.m */,
+				6EC909471D62AAC400F0B7CC /* Info.plist */,
+			);
+			path = KNLocalNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EC9091C1D62AAC400F0B7CC /* KNLocalNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC9094A1D62AAC400F0B7CC /* Build configuration list for PBXNativeTarget "KNLocalNotification" */;
+			buildPhases = (
+				6EC909191D62AAC400F0B7CC /* Sources */,
+				6EC9091A1D62AAC400F0B7CC /* Frameworks */,
+				6EC9091B1D62AAC400F0B7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNLocalNotification;
+			productName = KNLocalNotification;
+			productReference = 6EC9091D1D62AAC400F0B7CC /* KNLocalNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EC909351D62AAC400F0B7CC /* KNLocalNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC9094D1D62AAC400F0B7CC /* Build configuration list for PBXNativeTarget "KNLocalNotificationTests" */;
+			buildPhases = (
+				6EC909321D62AAC400F0B7CC /* Sources */,
+				6EC909331D62AAC400F0B7CC /* Frameworks */,
+				6EC909341D62AAC400F0B7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC909381D62AAC400F0B7CC /* PBXTargetDependency */,
+			);
+			name = KNLocalNotificationTests;
+			productName = KNLocalNotificationTests;
+			productReference = 6EC909361D62AAC400F0B7CC /* KNLocalNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EC909401D62AAC400F0B7CC /* KNLocalNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC909501D62AAC400F0B7CC /* Build configuration list for PBXNativeTarget "KNLocalNotificationUITests" */;
+			buildPhases = (
+				6EC9093D1D62AAC400F0B7CC /* Sources */,
+				6EC9093E1D62AAC400F0B7CC /* Frameworks */,
+				6EC9093F1D62AAC400F0B7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC909431D62AAC400F0B7CC /* PBXTargetDependency */,
+			);
+			name = KNLocalNotificationUITests;
+			productName = KNLocalNotificationUITests;
+			productReference = 6EC909411D62AAC400F0B7CC /* KNLocalNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EC909151D62AAC400F0B7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "柯南";
+				TargetAttributes = {
+					6EC9091C1D62AAC400F0B7CC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6EC909351D62AAC400F0B7CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6EC9091C1D62AAC400F0B7CC;
+					};
+					6EC909401D62AAC400F0B7CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6EC9091C1D62AAC400F0B7CC;
+					};
+				};
+			};
+			buildConfigurationList = 6EC909181D62AAC400F0B7CC /* Build configuration list for PBXProject "KNLocalNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EC909141D62AAC400F0B7CC;
+			productRefGroup = 6EC9091E1D62AAC400F0B7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EC9091C1D62AAC400F0B7CC /* KNLocalNotification */,
+				6EC909351D62AAC400F0B7CC /* KNLocalNotificationTests */,
+				6EC909401D62AAC400F0B7CC /* KNLocalNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EC9091B1D62AAC400F0B7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC909301D62AAC400F0B7CC /* LaunchScreen.storyboard in Resources */,
+				6EC9092D1D62AAC400F0B7CC /* Assets.xcassets in Resources */,
+				6EC9092B1D62AAC400F0B7CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC909341D62AAC400F0B7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9093F1D62AAC400F0B7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EC909191D62AAC400F0B7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC909281D62AAC400F0B7CC /* ViewController.m in Sources */,
+				6EC909251D62AAC400F0B7CC /* AppDelegate.m in Sources */,
+				6EC909581D62AB1100F0B7CC /* NSObject+KNLocalNotification.m in Sources */,
+				6EC909221D62AAC400F0B7CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC909321D62AAC400F0B7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9093B1D62AAC400F0B7CC /* KNLocalNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9093D1D62AAC400F0B7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC909461D62AAC400F0B7CC /* KNLocalNotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EC909381D62AAC400F0B7CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC9091C1D62AAC400F0B7CC /* KNLocalNotification */;
+			targetProxy = 6EC909371D62AAC400F0B7CC /* PBXContainerItemProxy */;
+		};
+		6EC909431D62AAC400F0B7CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC9091C1D62AAC400F0B7CC /* KNLocalNotification */;
+			targetProxy = 6EC909421D62AAC400F0B7CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EC909291D62AAC400F0B7CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC9092A1D62AAC400F0B7CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EC9092E1D62AAC400F0B7CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC9092F1D62AAC400F0B7CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EC909481D62AAC400F0B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EC909491D62AAC400F0B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EC9094B1D62AAC400F0B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KNLocalNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKN.KNLocalNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EC9094C1D62AAC400F0B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KNLocalNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKN.KNLocalNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EC9094E1D62AAC400F0B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KNLocalNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKN.KNLocalNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNLocalNotification.app/KNLocalNotification";
+			};
+			name = Debug;
+		};
+		6EC9094F1D62AAC400F0B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KNLocalNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKN.KNLocalNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNLocalNotification.app/KNLocalNotification";
+			};
+			name = Release;
+		};
+		6EC909511D62AAC400F0B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KNLocalNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKN.KNLocalNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KNLocalNotification;
+			};
+			name = Debug;
+		};
+		6EC909521D62AAC400F0B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KNLocalNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKN.KNLocalNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KNLocalNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EC909181D62AAC400F0B7CC /* Build configuration list for PBXProject "KNLocalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC909481D62AAC400F0B7CC /* Debug */,
+				6EC909491D62AAC400F0B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC9094A1D62AAC400F0B7CC /* Build configuration list for PBXNativeTarget "KNLocalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC9094B1D62AAC400F0B7CC /* Debug */,
+				6EC9094C1D62AAC400F0B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EC9094D1D62AAC400F0B7CC /* Build configuration list for PBXNativeTarget "KNLocalNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC9094E1D62AAC400F0B7CC /* Debug */,
+				6EC9094F1D62AAC400F0B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EC909501D62AAC400F0B7CC /* Build configuration list for PBXNativeTarget "KNLocalNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC909511D62AAC400F0B7CC /* Debug */,
+				6EC909521D62AAC400F0B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EC909151D62AAC400F0B7CC /* Project object */;
+}
